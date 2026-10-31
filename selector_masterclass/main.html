@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Selector</title>
+    <style>
+        /* element selector */
+        div {
+            background-color: darkgreen;
+            color: white
+        }
+
+        /* child selector  */
+        div>p {
+            background-color: darkviolet;
+            color: white
+        }
+
+        /* decending selector  */
+        div p{
+            background-color: cadetblue;
+        }
+
+        /* class seletor  */
+        .maroon {
+            background-color: maroon;
+            color: darkorange;
+        }
+
+        /* Id selector  */
+        #blue {
+            background-color: blue;
+        }
+
+        /* universal selector  */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo selector  */
+        a:link{
+            color:rgb(45, 38, 38);
+        }
+        a:hover{
+            background-color: blueviolet;
+        }
+        a:visited{
+            color:chartreuse
+        }
+        a:active{  /*when we click*/
+            background-color: deeppink;
+        }
+        p:first-child{
+            background-color:black;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div>
+        this is first div
+
+        <p>
+            this para inside the div
+        </p>
+        <p>this second para inside the div</p>
+        <article>
+            <p>this second para inside the div</p>
+        </article>
+    </div>
+
+    <br>
+
+    <div class="maroon">
+        this is second div
+    </div>
+
+    <br>
+
+    <span id="blue">
+        this is span
+    </span>
+
+    <br>
+    <br>
+    <a href="https://www.google.com">go to google</a>
+    <a href="https://www.facebook.com">go to facebook</a>
+
+
+</body>
+
+</html>
