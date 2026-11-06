@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shadows and outlines</title>
     <style>
-        
+        *{
+            margin: 34px;
+        }
+.box{
+    border: 1px solid black;
+    padding: 34px;
+    box-shadow: 9px 15px 15px 5px #359139;
+}
+.text{
+    font-size: 20px;
+    text-shadow: 3px 5px 5px #08520c;
+}
+.outline{
+    outline: 3px solid #6dc3c6;
+    outline-offset: 4px;
+    border-radius: 10px;
+}
     </style>
 </head>
 <body>
-    
+    <div class="box text outline">
+        I am the spider man.
+    </div>
 </body>
 </html>
