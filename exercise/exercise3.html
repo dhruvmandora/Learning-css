@@ -1,14 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise 3</title>
     <style>
-        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .main {
+            margin: 20px;
+            border: 3px solid black;
+            border-radius: 50px;
+            /* width : 400px; */
+            height: 100vh;
+        }
+
+        .box1 {
+            margin: 40px;
+            border: 2px solid black;
+            height: 40vh;
+            border-radius: 50px;
+
+        }
+
+        .main>.box1>img {
+            /* margin: 40px; */
+            /* border: 2px solid black; */
+            height: 40vh;
+            width : 100%;
+            border-radius: 50px;
+        }
+        .box2{
+            margin: 50px;
+        }
+        .nature{
+            margin: 20px;
+            padding: 10px;
+            font-size: 30px;
+            border: 1px solid black;
+            border-radius: 40px;
+
+        }
+        .box3{
+            margin: 50px;
+        }
+        .box4{
+            margin: 40px;
+        }
+        .box5{
+            padding: 20px;
+            border: 1px solid mediumaquamarine;
+            border-radius: 40px;
+            width: 6vw;
+            background-color: rgb(159, 207, 223);
+            color:rgb(52, 52, 139);
+            /* margin: 40px; */
+            position: relative;
+            left: 40vw;
+        }
     </style>
 </head>
+
 <body>
-    
+    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. -->
+    <div class="main">
+        <div class="box1">
+            <!-- <a href=""></a> -->
+            <img src="https://solstis.tours/cdn-cgi/imagedelivery/VzYWRpJYIXLVGwr8vjyQnA/f21b0a47-9fd3-433c-8741-21c662757700/public"
+                alt="boat">
+        </div>
+        <div class="box2">
+            <span class="nature ass1">Nature</span>
+            <span class="nature ass2">Lake</span>
+        </div>
+        <div class="box3">
+            <h1>Lorem, ipsum dolor.</h1>
+        </div>
+        <div class="box4">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, provident molestias esse mollitia pariatur iste magnam? Libero consectetur illo iusto excepturi quas tempora eveniet suscipit aperiam, ratione velit natus at consequuntur eaque provident sunt maxime laudantium error nam explicabo pariatur ab quia, eius vel sit? Quas fugit odit doloribus maiores.</p>
+        </div>
+        <div class="box5">
+            <p>Read More</p>
+        </div>
+    </div>
 </body>
+
 </html>
