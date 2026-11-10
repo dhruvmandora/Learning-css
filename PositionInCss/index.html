@@ -13,7 +13,7 @@
 
         .box {
             border: 3px solid black;
-            height: 433px;
+            height: 933px;
             width: 80vw;
             padding: 3px;
             margin: 3px;
@@ -22,8 +22,13 @@
 
         .box1 {
             background-color: aqua;
-            /* position: absolute; */
+            position: absolute;
             /* top: 0px; */
+            height: 200px;
+            /* position : sticky; */
+            top: 0px;
+            left: 0;
+            /* width: 100%; */
         }
 
         .box2 {
@@ -53,6 +58,16 @@
             margin: 45px;
             /* position: absolute; */
             /* top: 0px; */
+
+            /*
+            Exception: Transfrom, filter or perspective properties can also make an element appear as positioned 
+            transfrom: translate();
+            filter: invert();
+            perspective;
+            */
+            transform: translate(0);
+            /* filter: invert(6); */
+            /* perspective: 6em; */
         }
     </style>
 </head>
