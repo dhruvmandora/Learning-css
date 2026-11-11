@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .card {
+            margin: 20px;
+            padding: 40px;
+            border: 3px solid black;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .card-img {
+            height: 40vh;
+            border: 2px solid black;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+
+        .card-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .tags {
+            display: flex;
+            gap: 30px;
+        }
+
+        .tag {
+            padding: 10px 20px;
+            font-size: 30px;
+            border: 1px solid black;
+            border-radius: 40px;
+        }
+
+        .btn {
+            align-self: center;
+            padding: 20px 40px;
+            border: 1px solid mediumaquamarine;
+            border-radius: 40px;
+            background-color: rgb(159, 207, 223);
+            color: rgb(52, 52, 139);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-img">
+            <img src="https://solstis.tours/cdn-cgi/imagedelivery/VzYWRpJYIXLVGwr8vjyQnA/f21b0a47-9fd3-433c-8741-21c662757700/public" alt="boat on a lake">
+        </div>
+
+        <div class="tags">
+            <span class="tag">Nature</span>
+            <span class="tag">Lake</span>
+        </div>
+
+        <h1>Lorem, ipsum dolor.</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, provident molestias esse mollitia pariatur iste magnam? Libero consectetur illo iusto excepturi quas tempora eveniet suscipit aperiam, ratione velit natus at consequuntur eaque provident sunt maxime laudantium error nam explicabo pariatur ab quia, eius vel sit? Quas fugit odit doloribus maiores.</p>
+
+        <a href="#" class="btn">Read More</a>
+    </div>
+</body>
+</html>
