@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS card Design</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: grey;
+            padding: 45px;
+            display: flex;
+        }
+
+        .card {
+            background-color: white;
+            width: 198px;
+            height: 370px;
+            border-radius: 7px;
+            margin: 5px;
+        }
+
+        .image {
+            padding: 5px;
+        }
+
+        .image img {
+            border-radius: 10px;
+        }
+
+        .content {
+            padding: 14px;
+
+            .poppins-regular {
+                font-family: "Poppins", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+
+        .content p {
+            font-size: 13px;
+            color: grey;
+        }
+
+        .capsules {
+            padding: 0px 34px 0px 9px;
+        }
+
+        .capsules span {
+            border: 1px solid black;
+            border-radius: 7px;
+            padding: 1px 5px;
+            font-size: 12px;
+            color: grey;
+
+        }
+
+        .button {
+            text-align: center;
+        }
+
+        .button button {
+            border: none;
+            padding: 6px 10px;
+            border-radius: 9px;
+            background-color: rgb(180, 217, 239);
+            color: rgb(20, 120, 160);
+
+        }
+
+        .button button:hover{
+            background-color: blueviolet;
+            color:aquamarine;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="image">
+            <img width="188"
+                src="https://static.vecteezy.com/system/resources/thumbnails/014/553/034/small/a-view-of-a-fishing-boat-moored-by-the-sea-in-the-morning-with-a-beautiful-blue-sea-and-sky-free-photo.jpg"
+                alt="boat">
+        </div>
+
+        <div class="capsules">
+            <span class="cap">Nature</span>
+            <span class="cap">Lake</span>
+        </div>
+
+        <div class="content">
+            <h2>Dhruv</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae, quibusdam necessitatibus est,
+                nisi, similique accusantium modi autem architecto alias mollitia eius provident.</p>
+        </div>
+        <div class="button">
+            <button>
+                Read More
+            </button>
+        </div>
+    </div>
+    <div class="card">
+
+        <div class="image">
+            <img width="188"
+                src="https://static.vecteezy.com/system/resources/thumbnails/014/553/034/small/a-view-of-a-fishing-boat-moored-by-the-sea-in-the-morning-with-a-beautiful-blue-sea-and-sky-free-photo.jpg"
+                alt="boat">
+        </div>
+
+        <div class="capsules">
+            <span class="cap">Nature</span>
+            <span class="cap">Lake</span>
+        </div>
+
+        <div class="content">
+            <h2>Dhruv</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi molestiae, quibusdam necessitatibus est,
+                nisi, similique accusantium modi autem architecto alias mollitia eius provident.</p>
+        </div>
+        <div class="button">
+            <button>
+                Read More
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
